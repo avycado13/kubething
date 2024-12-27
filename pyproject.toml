@@ -1,0 +1,12 @@
+[project]
+name = "kubething"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.0",
+    "flask-apscheduler>=1.13.1",
+    "flask-sqlalchemy>=3.1.1",
+    "kubernetes>=31.0.0",
+]
